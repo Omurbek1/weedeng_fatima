@@ -47,7 +47,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
     if (isAnonymGuest)
       return (
         <Fragment>
-          <h2 className="to-dearest-name">Dear Guests</h2>
+          <h2 className="to-dearest-name">Кымбаттуу коноктор</h2>
         </Fragment>
       );
 
@@ -84,7 +84,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-dinda-indra" />
               <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title">Omurbek &amp; Zarina</h1>
+              <h1 className="title">Данил &amp; Фатима</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>

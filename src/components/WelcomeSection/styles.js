@@ -1,5 +1,5 @@
 import { css, keyframes } from '@emotion/react';
-import Background from '@assets/images/bg-welcome.jpg';
+import Background from '../../assets/images/fatima/backround.jpg';
 
 export const styHero = css`
   width: 100%;

@@ -6,14 +6,14 @@ import { styMargin } from './styles';
 
 function CountContainer() {
   const { days, hours, minutes, seconds, timeHasRunOut, isEventOver } = useDateCountdown();
-  const finalText = isEventOver ? 'SUDAH' : 'SEDANG';
+  const status = isEventOver ? 'БОЛУП ӨТТҮ' : 'ӨТҮП ЖАТАТ';
 
   if (timeHasRunOut)
     return (
       <>
         <div className="row">
           <div className="col-md-12" style={{ fontSize: '20px' }}>
-            {`ACARA ${finalText} BERLANGSUNG!`}
+            {`ҮЙЛӨНҮҮ ТОЮ ${status} !`}
           </div>
         </div>
         <ButtonLive />
