@@ -2,12 +2,12 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
-import Favicon from '@assets/images/slide-5.jpg';
+import Favicon from '../../assets/images/fatima/2025-08-21 13.04.11.jpg';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `../../assets/images/bg-welcome.jpg`;
+const IMAGE_URL = `../../assets/images/fatima/2025-08-21 13.03.27.jpg`;
 const META_DESCRIPTION = `Danil ❤️ Fatima - The weddings of Danil & Fatima`;
 
 function MainLayout({ children }) {
