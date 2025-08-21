@@ -19,7 +19,6 @@ function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(loc, 'to') || '');
   const isInvitation = getQueryValue(loc, 'type') === 'invitation';
   const isAnonymGuest = guestName === '' && !isInvitation;
-  const codeLink = getQueryValue(loc, 'code') || '';
 
   const [showDetailContent, setShowDetailContent] = useState(false);
 
