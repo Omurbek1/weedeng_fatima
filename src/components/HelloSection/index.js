@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '../../assets/images/fatima/danil.jpg';
-import Groom from '../../assets/images/fatima/fatima.jpg';
+import Bride from '../../assets/images/fatima/danil01.png';
+import Groom from '../../assets/images/fatima/fatima01.png';
 
 import { styWrapper } from './styles';
 
@@ -33,10 +33,14 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Фатима </h3>
-                <p className="parent-name parent-name__top">
-                  Software Engineer <br />& Korean teacher
-                </p>
+                <h3
+                  className="main-font"
+                  style={{
+                    marginTop: 40,
+                  }}
+                >
+                  Данил
+                </h3>
               </div>
             </div>
             <p className="heart text-center">
@@ -50,10 +54,14 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Данил</h3>
-                <p className="parent-name">
-                  Software Engineer <br />& Businessman
-                </p>
+                <h3
+                  className="main-font"
+                  style={{
+                    marginTop: 40,
+                  }}
+                >
+                  Фатима
+                </h3>
               </div>
             </div>
           </div>

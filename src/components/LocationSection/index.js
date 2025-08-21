@@ -31,7 +31,7 @@ function LocationSection() {
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2925.403420295044!2d74.63273107663791!3d42.84321420443977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb70c97fef4ed%3A0xcc0dd658592e5d77!2z0JHQsNC90LrQtdGC0L3Ri9C5INC30LDQuyAi0JDQu9GC0YvQvSDQkNGA0LDRiNCw0L0i!5e0!3m2!1sru!2skg!4v1720610062499!5m2!1sru!2skg"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2970.58981562254!2d72.93615407608469!3d41.88017087124149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDUyJzQ4LjYiTiA3MsKwNTYnMTkuNCJF!5e0!3m2!1sru!2skg!4v1755766617966!5m2!1sru!2skg"
                 width="100%"
                 height="450"
                 frameBorder="0"
@@ -45,7 +45,7 @@ function LocationSection() {
                 <button className="btn btn-primary #fff">
                   {/* save to google calendar 2024-08-15 17:00 Omurber and Zarina wedding day 5pm - 11pm */}
                   <a
-                    href="https://go.2gis.com/so7ro"
+                    href="https://go.2gis.com/GCt2x"
                     target="_blank"
                     rel="noreferrer"
                     style={{
@@ -61,7 +61,7 @@ function LocationSection() {
                     style={{
                       color: '#fff',
                     }}
-                    href="https://maps.app.goo.gl/yQvVP52qYB7fVnrU6"
+                    href="https://maps.app.goo.gl/vw5xsCZYnHp8utuy5"
                     target="_blank"
                     rel="noreferrer"
                   >
