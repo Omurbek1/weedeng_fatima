@@ -32,7 +32,7 @@ function Home({ location }) {
     return (
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
-        <StorySection />
+        {/* <StorySection /> */}
         <PhotoSection />
 
         {!isInvitation && <LocationSection />}

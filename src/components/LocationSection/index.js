@@ -9,7 +9,7 @@ function LocationSection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">Event Location</h2>
+              <h2 className="main-font">Той болуучу жай</h2>
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
@@ -18,12 +18,12 @@ function LocationSection() {
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>Restaurant Altyn Arashan</strong>
+                  <strong>“ҮЧ СУЛТАН” рестораны</strong>
                 </a>{' '}
                 <br />
-                ​Улица 7 апреля, 7/2, Бишкек, Кыргызстан
+                Токтогул шаары, Кыргызстан
                 <br />
-                <time> 17:00 - 23:59</time>
+                <time> 18:00 - 23:59</time>
               </p>
             </div>
           </div>

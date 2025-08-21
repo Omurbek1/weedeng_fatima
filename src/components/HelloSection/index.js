@@ -1,15 +1,15 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/zarina.jpg';
-import Groom from '@assets/images/omurbek.jpg';
+import Bride from '../../assets/images/fatima/danil.jpg';
+import Groom from '../../assets/images/fatima/fatima.jpg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
   const finalSubtitle = isInvitation
-    ? '  5:00pm  15 August 2024, a restaurant Altyn Arashan, Bishkek'
-    : '17:00   15 August 2024, Altyn Arashan, Bishkek';
+    ? '18:00, 25.08.2025, Токтогул шаары,“ҮЧ СУЛТАН” рестораны'
+    : `18:00, 25.08.2025, Токтогул шаары, “ҮЧ СУЛТАН” рестораны`;
 
   return (
     <Fragment>
@@ -17,13 +17,13 @@ function HelloSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Hello every one</h2>
+              <h2 className="main-font">Кымбаттуу коноктор!</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
-                It is with great joy that we invite you to join us as we embark on this new, wonderful chapter of our
-                journey together. May our hearts be filled with love, laughter, and precious memories, all shared with
-                you! Your presence will transform this day into a true celebration of magic and leave an unforgettable
-                mark in our hearts.
+                Биздин өмүр жолубуздагы өзгөчө жана маанилүү күн — үйлөнүү тоюбузга сиздерди чын жүрөктөн чакырабыз.
+                Кубанычыбызды сиздер менен бөлүшүп, эстен кеткис көз ирмемдерди бирге жаратууну каалайбыз. Сиздин
+                катышууңуз — биз үчүн чоң бакыт жана бул күндү дагы да өзгөчө кылат. Жакшы тилек, ак баталарыңыз,
+                көӊүлдүү маанайыңыз – биз үчүн эң кымбат белек болот.
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Zarina Abdibaitova</h3>
+                <h3 className="main-font">Фатима </h3>
                 <p className="parent-name parent-name__top">
                   Software Engineer <br />& Korean teacher
                 </p>
@@ -50,7 +50,7 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Omurbek Mamytbekov</h3>
+                <h3 className="main-font">Данил</h3>
                 <p className="parent-name">
                   Software Engineer <br />& Businessman
                 </p>

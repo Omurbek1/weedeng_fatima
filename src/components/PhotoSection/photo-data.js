@@ -1,21 +1,21 @@
-import Gallery1 from '@assets/images/gallery-1.jpg';
-import Gallery4 from '@assets/images/gallery-4.jpg';
-import Gallery5 from '@assets/images/gallery-5.jpg';
-import Image5 from '@assets/images/slide-5.jpg';
-import Image2 from '@assets/images/slide-2.jpg';
-import Image1 from '@assets/images/slide-1.jpg';
-import Image3 from '@assets/images/slide-3.jpg';
-import Image6 from '@assets/images/slide-6.jpg';
-import Gallery6 from '@assets/images/gallery-6.jpg';
-import Gallery7 from '@assets/images/gallery-7.jpg';
-import Gallery8 from '@assets/images/gallery-8.jpg';
-import Gallery9 from '@assets/images/gallery-9.jpg';
-import Gallery10 from '@assets/images/gallery-10.jpg';
-import Gallery11 from '@assets/images/gallery-11.jpg';
-import Gallery12 from '@assets/images/gallery-12.jpg';
-import Gallery13 from '@assets/images/gallery-13.jpg';
-import Gallery14 from '@assets/images/gallery-14.jpg';
-import Gallery15 from '@assets/images/gallery-15.jpg';
+import Gallery1 from '../../assets/images/fatima/2025-08-21 13.03.27.jpg';
+import Gallery4 from '../../assets/images/fatima/2025-08-21 13.03.35.jpg';
+import Gallery5 from '../../assets/images/fatima/2025-08-21 13.03.41.jpg';
+import Image5 from '../../assets/images/fatima/2025-08-21 13.03.46.jpg';
+import Image2 from '../../assets/images/fatima/2025-08-21 13.03.52.jpg';
+import Image1 from '../../assets/images/fatima/2025-08-21 13.03.57.jpg';
+import Image3 from '../../assets/images/fatima/2025-08-21 13.04.02.jpg';
+import Image6 from '../../assets/images/fatima/2025-08-21 13.04.11.jpg';
+import Gallery6 from '../../assets/images/fatima/2025-08-21 13.04.15.jpg';
+import Gallery7 from '../../assets/images/fatima/2025-08-21 13.04.20.jpg';
+import Gallery8 from '../../assets/images/fatima/2025-08-21 13.04.35.jpg';
+import Gallery9 from '../../assets/images/fatima/2025-08-21 13.04.25.jpg';
+import Gallery10 from '../../assets/images/fatima/2025-08-21 13.04.39.jpg';
+import Gallery11 from '../../assets/images/fatima/2025-08-21 13.04.43.jpg';
+import Gallery12 from '../../assets/images/fatima/2025-08-21 13.05.14.jpg';
+import Gallery13 from '../../assets/images/fatima/2025-08-21 13.05.18.jpg';
+import Gallery14 from '../../assets/images/fatima/2025-08-21 13.05.22.jpg';
+import Gallery15 from '../../assets/images/fatima/2025-08-21 13.05.27.jpg';
 
 export const photos = [
   {
