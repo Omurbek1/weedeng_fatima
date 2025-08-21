@@ -31,7 +31,7 @@ function CountContainer() {
       <button>
         {/* save to google calendar 2024-08-15 17:00 Omurber and Zarina wedding day 5pm - 11pm */}
         <a
-          href="https://www.google.com/calendar/render?action=TEMPLATE&text=Omurbek_Mamytbekov_Wedding_Party&dates=20240815T110000Z/20240815T170000Z&details=Omurber%20and%20Zarina%20wedding%20day%2005pm%20to%2011pm&location=HARRIS%20Hotel%20Sentraland%20Semarang"
+          href="https://www.google.com/calendar/render?action=TEMPLATE&text=Danil_Fatima_Wedding_Party&dates=20240815T110000Z/20240815T170000Z&details=Omurber%20and%20Zarina%20wedding%20day%2005pm%20to%2011pm&location=HARRIS%20Hotel%20Sentraland%20Semarang"
           target="_blank"
           rel="noreferrer"
         >
